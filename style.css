@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    overflow: hidden;
+}
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.content{
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+    overflow: hidden;
+    padding:20px 50px;
+    background-image: url(/page2\ \(2\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:white;
+    font-family: Gilroy;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left{
+    width: 30%;
+    height: 100%;
+    transform: translateY(25%);
+}
+.left > h1{
+    font-size: 40px;
+}
+
+.right{
+    width: 70%;
+    height: 100%;
+    padding:20px;
+    position: relative;
+}
+.right > h1{
+    font-size: 20px;
+}
+.right > h2 > button{
+    padding: 6px 18px;
+    margin-left:20px;
+    margin-top:20px;
+    border-radius: 5px;
+    background-color: transparent;
+    color:white;
+    border: 1px solid white;
+    font-size:15px;
+}
+.right > .inv-amt{
+    width:50%;
+    font-size:18px;
+    font-weight: 400;
+    margin-top:45px;
+    display: flex;
+    justify-content: space-between;
+}
+.right > input{
+    margin-top: 15px;
+    width: 40%;
+}
+.returns{
+    width:50%;
+    height:auto;
+    margin-top:20px;
+}
+.returns > ul{
+    display: flex;
+    justify-content: space-between;
+}
+.returns > ul > span > li{
+    list-style-type: none;
+    font-size: 15px;
+}
+.invest{
+    padding:10px 25px;
+    border-radius:10px;
+    background-color: rgb(108, 227, 225);
+    border:1 px solid rgb(83, 170, 169);
+    margin-top:30px;
+}
+.chart > img{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    right:0;
+    top:20%;
+}
